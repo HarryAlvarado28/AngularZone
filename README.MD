@@ -6,6 +6,7 @@ Todos estos programas o aplicaciones son parte del Curso de Angular del Profesor
 ### 01 Hola-Mundo
 
 Sección 3, Clase 29
+
 Este es un breve resumen de todo lo que veremos a continuación:
 - ¿Qué son los componentes?
 - ¿Qué son las directivas estructurales?
@@ -20,6 +21,7 @@ Este es un breve resumen de todo lo que veremos a continuación:
 ### 02 SPA
 
 Sección 4, Clase 43
+
 A continuación vamos a aprender sobre los siguientes temas:
 - Crearemos una aplicación de una sola página (Single Page Application)
 - Creación de proyectos de Angular usando el CLI (Command Line Interface)
@@ -35,6 +37,7 @@ A continuación vamos a aprender sobre los siguientes temas:
 ### 03 Pipes
 
 Sección 5, Clase 69
+
 A continuación vamos a entrar a profundidad sobre el tema de los PIPES, que no es más que una transformación visual de la data.
 En detalle veremos:
 - Pipes uppercase y lowercase
@@ -52,6 +55,7 @@ En detalle veremos:
 ### 04 SpotiApp
 
 Sección 6, Clase 86
+
 Vamos a crear una aplicación que nos ayudará a comprender sobre los siguientes temas:
 - Reforzamiento de rutas y parámetros de rutas.
 - Uso de carruseles del Bootstrap 4
@@ -70,6 +74,7 @@ Vamos a crear una aplicación que nos ayudará a comprender sobre los siguientes
 ### 05 Deseos
 
 Sección 7, Clase 109
+
 A lo largo de esta sección crearemos una aplicación que correrá en nuestro dispositivo Android o IOS, y con ello aprenderemos sobre:
 - Uso del local storage guardar localmente información para nuestras aplicaciones.
 - Introducción a ionic.
@@ -84,6 +89,7 @@ A lo largo de esta sección crearemos una aplicación que correrá en nuestro di
 ### 06 Miscelaneos
 
 Sección 8, Clase 130
+
 Esta sección esta llena de pequeñas cosas útiles que te ayudaran a mejorar la forma en la que usas Angular.
 A continuación veremos:
 - Cambios en el estilo de algún elemento HTML utilizando variables en los componentes.
@@ -99,6 +105,7 @@ Entre otras cosas bien interesantes.
 ### 07 AuthApp
 
 Sección 9, Clase 146
+
 A continuación trabajaremos en una pequeña aplicación que tendrá como finalidad, utilizar el sistema de autenticación de usuarios Auth0.
 Tras concluirla, aprenderemos mucho sobre:
 - ¿Qué es Auth0 y la documentación basada en Angular 2?
@@ -112,6 +119,7 @@ Tras concluirla, aprenderemos mucho sobre:
 ### 08 Formulario
 
 Sección 10, Clase 158
+
 A continuación vamos a aprender sobre los siguientes temas:
 
 - Diferentes aproximaciones que tiene angular para trabajar formularios.
@@ -129,6 +137,7 @@ A continuación vamos a aprender sobre los siguientes temas:
 ### 09 Heroesapp
 
 Sección 11, Clase 182
+
 Esto es lo que veremos a continuación:
 - Uso del modulo HTTP.
 - Utilizaremos los servicios restful de Firebase
@@ -142,6 +151,7 @@ Esto es lo que veremos a continuación:
 ### 10 Firechat
 
 Sección 12, Clase 195
+
 A continuación vamos a trabajar con los siguientes temas:
 - Uso de AngularFire2 - Librería oficial de angular para conectarse a Firebase.
 - Crear observables para escuchar mediante sockets los cambios en Firebase.
