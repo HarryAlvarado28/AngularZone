@@ -1,0 +1,8 @@
+<h1>Heroes <small>Marvel y DC</small></h1>
+<hr>
+
+<div class="card-columns">
+  <!--Ejemplo del decorador @Output-->
+  <!--app-heroe-targeta (heroeSeleccionado)="verHeroe($event)" [heroe]="nice" [index]="i" *ngFor="let nice of heroes; let i = index"></app-heroe-targeta-->
+  <app-heroe-targeta [heroe]="nice" [index]="i" *ngFor="let nice of heroes; let i = index"></app-heroe-targeta>
+</div>

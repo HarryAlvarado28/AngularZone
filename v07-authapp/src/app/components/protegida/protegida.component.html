@@ -1,0 +1,21 @@
+<p>
+  protegida works!
+</p>
+
+<div class="row" *ngIf="profile">
+  <div class="col-md-4">
+    <img [src]="profile.picture" alt="" class="img-fluid">
+  </div>
+
+  <div class="col-md-8">
+    <ul class="list-group">
+      <li class="list-group-item">{{ profile.name }}</li>
+      <li class="list-group-item">{{ profile.nickname }}</li>
+      <li class="list-group-item">{{ profile.updated_at | date: 'dd MM yyyy'}}</li>
+    </ul>
+  </div>
+</div>
+<br><br><br>
+<pre>
+  {{profile | json}}
+</pre>

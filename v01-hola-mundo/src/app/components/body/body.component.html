@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col">
+    <h1>*ngIf</h1>
+    <hr>
+    <div *ngIf="mostrar" class="card text-white bg-primary mb-3" style="width: 100%;">
+      <div class="card-body">
+        <h5 class="card-title">{{frase.autor}}</h5>
+        <p class="card-text">{{frase.mensaje}}</p>
+      </div>
+    </div>
+
+    <button (click)="mostrar = !mostrar;" class="btn btn-outline-primary btn-block">
+      Mostrar/Ocultar
+    </button>
+  </div>
+
+  <div class="col">
+    <h1>*ngFor</h1>
+    <hr>
+    <div class="card" style="width: 100%;">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item" *ngFor="let peli of peliculas; let i = index;">{{i+1}} : {{peli}}</li>
+      </ul>
+    </div>
+  </div>
+</div>

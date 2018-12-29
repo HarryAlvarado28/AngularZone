@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+.main-container{
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+.puntero{
+  cursor: pointer;
+}
+
+.w120{
+  width: 230px;
+}
+
+/* Animaciones */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}

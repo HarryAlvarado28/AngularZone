@@ -1,0 +1,23 @@
+<h1>
+  {{heroes.nombre | uppercase}}
+  <small>({{heroes.aparicion | date:'y'}})</small>
+</h1>
+<hr>
+<div class="row animated fadeIn">
+  <div class="col-md-4">
+    <img [src]="heroes.img" [alt]="heroes.nombre" class="img-fluid">
+    <br><br>
+    <a routerLink="/heroes" class="btn btn-outline-danger btn-block">regresar</a>
+  </div>
+
+  <div class="col-md-8">
+    <h3> {{heroes.nombre}}</h3>
+      <hr>
+      <p>{{heroes.bio}}</p>
+    <div>
+      <img *ngIf="heroes.casa == 'Marvel'" width="200" height="60" src="assets/img/marvel.png" [alt]="heroes.casa">
+      <img *ngIf="heroes.casa == 'DC'" width="60" height="60" src="assets/img/dc.png" [alt]="heroes.casa">
+    </div>
+  </div>
+
+</div>
