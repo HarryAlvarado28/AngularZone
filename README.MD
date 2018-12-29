@@ -161,9 +161,30 @@ A continuación vamos a trabajar con los siguientes temas:
 - Usaremos el local storage para almacenar información del login para mantener las sesión.
 - Entre otras cosas útiles.
 
+### 11 Mapas
+
+Sección 14, Clase 223
+
+En esta sección aprenderemos sobre:
+
+- Uso de Google Maps en un proyecto con Angular
+- Creación del API KEY de Google Maps
+- Uso de Reactive Forms - FormBuilder
+- Creación de marcadores en el mapa
+- Eventos y diversas interacciones con los mapas
+- Edición de marcadores
+- Uso de Angular Material en el proyecto
+-- Dialogs
+-- Snacks
+-- Inputs
+-- Toolbars
+-- Themes
+-- Entra otras cosas
+
+Aquí nos enfocaremos en tener un control total del mapa para poder realizar acciones a la hora de colocarlo en nuestra aplicación.
 
 La página [dillinger.io](https://dillinger.io) me ayuda a editar el README y ¡es genial!.
 
 License
 ----
-GNU GENERAL PUBLIC LICENSE. V3
+GNU General Public License v3.0
