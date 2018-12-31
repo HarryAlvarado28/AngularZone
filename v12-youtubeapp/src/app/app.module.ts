@@ -8,12 +8,14 @@ import { YoutubeService } from './services/youtube.service';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { VideoYouTubePipe } from './pipes/video-you-tube.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    VideoYouTubePipe
   ],
   imports: [
     BrowserModule,
