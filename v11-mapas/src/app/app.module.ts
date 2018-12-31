@@ -22,7 +22,7 @@ import { AgmCoreModule } from '@agm/core';
     AppRoutingModule,
     MaterialModule,
     AgmCoreModule.forRoot({
-      apiKey: 'YOUR_KEY'
+      apiKey: 'API_KEY'
     })
   ],
   providers: [],
