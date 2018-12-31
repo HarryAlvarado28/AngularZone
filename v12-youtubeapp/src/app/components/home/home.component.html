@@ -1,4 +1,41 @@
 <div class="container main-container">
   <h1>Canal de YouTube</h1>
   <hr>
+
+  <div class="card-columns" *ngIf="videos.length > 0">
+    <div class="card animated fadeIn fast" *ngFor="let video of videos" >
+      <img class="card-img-top" [src]="video.thumbnails.high.url" [alt]="video.title">
+      <div class="card-body">
+        <h5 class="card-title">{{ video.title }}</h5>
+        <button type="button"
+                (click)="verVideo(video)"
+                class="btn btn-outline-primary btn-block">
+          Ver Video
+        </button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+
+    <div class="modal-content" *ngIf="videoSel" >
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">{{videoSel.title}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/3XlZInfP-s8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar Modal</button>
+      </div>
+    </div>
+
+  </div>
 </div>
