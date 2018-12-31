@@ -22,13 +22,6 @@ export class YoutubeService {
   }
 
   getVideos(){
-    // let url = `${this.youtubeUrl}/playlistItems`;
-    // let params = new URLSearchParams();
-    //
-    // params.set('part','snippet');
-    // params.set('maxResults','10');
-    // params.set('playlistId', this.playlist);
-    // params.set('key', this.apiKey);
 
     const query = '/playlistItems';
     const params = new HttpParams()
@@ -40,18 +33,15 @@ export class YoutubeService {
     return this.getQuery(query,params).pipe(
       map(res => {
         console.log(res);
+        this.nextPageToken = res['nextPageToken'];
+        let videos: any[]=[];
+        for(let video of res['items']){
+          let snippet = video.snippet;
+          videos.push(snippet);
+        }
+        return videos;
       })
     );
-    // return this.http.get(url,{search:params})
-    //   .pipe( map( res=>{
-    //     console.log(res.json());
-    //     this.nextPageToken = res.json().nextPageToken;
-    //     let videos: any[]=[];
-    //     for(let video of res.json().items){
-    //       let snippet = video.snippet;
-    //       videos.push(snippet);
-    //     }
-    //     return videos;
-    //   }));
+
   }
 }
