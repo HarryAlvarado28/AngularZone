@@ -183,6 +183,21 @@ En esta sección aprenderemos sobre:
 
 Aquí nos enfocaremos en tener un control total del mapa para poder realizar acciones a la hora de colocarlo en nuestra aplicación.
 
+### 12 YoutubeApp
+
+Sección 15, Clase 239
+
+A continuación aprenderemos sobre los siguientes temas:
+
+- Creación de una API KEY para accesar los servicios de YouTube API v3a
+- Uso de la documentación de YouTube para obtener información de un canal
+- Obtener una lista de reproducción
+- Crear una página en la cual pueda cargar los videos de forma paginada
+- Usar el Token de respuesta de la api de YouTube
+- Entre otras cosas más
+
+El objetivo es enseñar a utilizar la API de YouTube y repasar todo lo aprendido en el curso.
+
 La página [dillinger.io](https://dillinger.io) me ayuda a editar el README y ¡es genial!.
 
 License
