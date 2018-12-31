@@ -10,17 +10,26 @@ import { MaterialModule } from './material.module';
 import { MapaComponent } from './components/mapa/mapa.component';
 
 import { AgmCoreModule } from '@agm/core';
+import { MapaEditarComponent } from './components/mapa/mapa-editar.component';
+
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
+  entryComponents:[
+    MapaEditarComponent
+  ],
   declarations: [
     AppComponent,
-    MapaComponent
+    MapaComponent,
+    MapaEditarComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     MaterialModule,
+    ReactiveFormsModule,
     AgmCoreModule.forRoot({
       apiKey: 'API_KEY'
     })

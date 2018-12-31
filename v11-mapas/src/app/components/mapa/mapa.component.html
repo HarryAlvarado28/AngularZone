@@ -7,19 +7,16 @@
 <mat-progress-bar mode="indeterminate"></mat-progress-bar>
 
 <mat-card>
-  <mat-card-title>Mapa</mat-card-title>
+  <mat-card-title>{{title}}</mat-card-title>
   <mat-card-content>
-    <h1>{{ title }}</h1>
-    <!-- this creates a google map on the page with the given lat/lng from -->
-    <!-- the component as the initial center of the map: -->
-    <agm-map (mapClick)="agregarMarcador($event)" [latitude]="lat" [longitude]="lng" [zoom]="15">
-      <agm-marker *ngFor="let marcador of marcadores"  [latitude]="marcador.lat" [longitude]="marcador.lng">
+    <agm-map (mapClick)="agregarMarcador($event)" [latitude]="lat" [longitude]="lng" [zoom]="16">
+      <agm-marker *ngFor="let marcador of marcadores; let i = index"  [latitude]="marcador.lat" [longitude]="marcador.lng">
         <agm-info-window>
           <strong>{{marcador.titulo}}</strong>
           <p>{{marcador.desc}}</p>
-          <div class="">
-            <button mat-raised-button color="primary">Editar</button>
-            <button mat-raised-button color="warn">Borrar</button>
+          <div>
+            <button (click)="editarMarcador(marcador)" mat-raised-button color="primary">Editar</button>
+            <button (click)="borrarMarcador(i)" mat-raised-button color="warn">Borrar</button>
           </div>
         </agm-info-window>
       </agm-marker>
