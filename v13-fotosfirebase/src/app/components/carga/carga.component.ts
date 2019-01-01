@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { AngularFirestore } from '@angular/fire/firestore';
-import * as firebase from 'firebase';
+import { FileItem } from 'src/app/models/file-item';
+import { CargaImagenesService } from 'src/app/services/carga-imagenes.service';
 
 @Component({
   selector: 'app-carga',
@@ -10,15 +10,15 @@ import * as firebase from 'firebase';
 })
 export class CargaComponent implements OnInit {
 
-  private CARPETA_IMAGENES = 'img';
+  archivos: FileItem[] = [];
 
-  constructor(private db: AngularFirestore) { }
+  constructor(public _cargaImagenes:CargaImagenesService) { }
 
-  private guardarImange(imagen: {nombre: string, url: string}){
-    this.db.collection(`/${this.CARPETA_IMAGENES}`)
-      .add(imagen);
-  }
   ngOnInit() {
+  }
+
+  cargarImagenes(){
+    this._cargaImagenes.cargarImagenesFirebase(this.archivos);
   }
 
 }
