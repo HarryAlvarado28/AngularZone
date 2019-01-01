@@ -5,7 +5,15 @@ import { AppComponent } from './app.component';
 import { FotosComponent } from './components/fotos/fotos.component';
 import { CargaComponent } from './components/carga/carga.component';
 
+import { CargaImagenesService } from './services/carga-imagenes.service';
 import { APP_ROUTES } from './app.routes';
+
+// Firebase
+import { environment } from 'src/environments/environment';
+
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireAuthModule } from '@angular/fire/auth';
 
 @NgModule({
   declarations: [
@@ -15,9 +23,14 @@ import { APP_ROUTES } from './app.routes';
   ],
   imports: [
     BrowserModule,
-    APP_ROUTES
+    APP_ROUTES,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule,
+    AngularFireAuthModule
   ],
-  providers: [],
+  providers: [
+    CargaImagenesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
