@@ -198,6 +198,25 @@ A continuación aprenderemos sobre los siguientes temas:
 
 El objetivo es enseñar a utilizar la API de YouTube y repasar todo lo aprendido en el curso.
 
+### 13 FotosFireBase
+
+Sección 18, Clase 260
+
+A continuación una sección bonus!
+
+Aquí aprenderemos a realizar subidas de archivos al Storage de Firebase, varios me lo han pedido y pues aquí esta el tutorial y la explicación.
+
+Veremos temas sobre:
+
+- Uso de directivas
+- Detalles del Hostlistener
+- Input y Outputs
+- Storage de Firebase
+- uploadTask de Firebase
+- Evento drop, dragenter, dragleave, dragover
+- Uso de tipo de dato File
+- Entre otras cosas.
+
 La página [dillinger.io](https://dillinger.io) me ayuda a editar el README y ¡es genial!.
 
 License
