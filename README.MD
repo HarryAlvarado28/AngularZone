@@ -233,6 +233,21 @@ Puntualmente veremos sobre:
 
 Biblioteca utilizada para el desarrollo de este proyecto es [ng2-charts](https://valor-software.com/ng2-charts/).
 
+### 15 VirtualScroll
+
+Sección 21, Clase 290
+
+En esta sección trataremos dos temas interesantes incluidos desde la versión 7 de Angular.
+
+Principalmente nos enfocaremos en dos temas principales:
+
+- Drag and Drop de Angular
+
+- Virtual Scroll
+
+Ambos son novedades de la versión, también vale la pena decir que si vienes de la versión 6 de Angular, no hay ningún cambio que rompa el código, si vienes de la versión 5 o inferior, recuerda que necesitarás actualizar tus RXJS o bien usar la versión de compatibilidad, pero en nuevos proyectos, se recomienda usar los nuevos RXJS versión 6 o superior.
+
+
 
 
 La página [dillinger.io](https://dillinger.io) me ayuda a editar el README y ¡es genial!.
