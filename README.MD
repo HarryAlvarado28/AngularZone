@@ -217,6 +217,24 @@ Veremos temas sobre:
 - Uso de tipo de dato File
 - Entre otras cosas.
 
+### 14 Gráficos
+
+Sección 20, Clase 281
+
+Esta sección esta dedicada en enseñar a usar gráficas dinámicas en Angular.
+
+Puntualmente veremos sobre:
+
+- Instalaciones necesarias
+- Configuraciones
+- Gráfico de Barras
+- Gráfico de Donas
+- Gráfico de Radar
+
+Biblioteca utilizada para el desarrollo de este proyecto es [ng2-charts](https://valor-software.com/ng2-charts/).
+
+
+
 La página [dillinger.io](https://dillinger.io) me ayuda a editar el README y ¡es genial!.
 
 License
