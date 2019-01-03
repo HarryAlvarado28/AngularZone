@@ -247,6 +247,7 @@ Principalmente nos enfocaremos en dos temas principales:
 
 Ambos son novedades de la versión, también vale la pena decir que si vienes de la versión 6 de Angular, no hay ningún cambio que rompa el código, si vienes de la versión 5 o inferior, recuerda que necesitarás actualizar tus RXJS o bien usar la versión de compatibilidad, pero en nuevos proyectos, se recomienda usar los nuevos RXJS versión 6 o superior.
 
+Otras guias más [Scrolling](https://material.angular.io/cdk/scrolling/overview) y [Drag and Drop](https://material.angular.io/cdk/drag-drop/overview).
 
 
 
