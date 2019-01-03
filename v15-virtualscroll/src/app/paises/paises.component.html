@@ -1,0 +1,12 @@
+
+<h1>Paises</h1>
+<hr>
+
+<ul class="list-group" cdkDropList
+    (cdkDropListDropped)="drop($event)">
+  <li class="list-group-item"
+      cdkDrag
+      *ngFor="let pais of paises" >
+    {{pais.name}}
+  </li>
+</ul>
