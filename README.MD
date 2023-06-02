@@ -1,7 +1,7 @@
 
 # Lecciones de Angular
 
-Todos estos programas o aplicaciones son parte del Curso de Angular del Profesor Fernando Herrera tomado de la plataforma [Udemy](https://www.udemy.com/angular-2-fernando-herrera/learn/v4/content). de paso agradesco al Profesor por tan grandioso curso.
+Todos estos programas o aplicaciones son parte del Curso de Angular del Profesor Fernando Herrera tomado de la plataforma [Udemy](https://www.udemy.com/course/angular-2-fernando-herrera/). de paso agradesco al Profesor por tan grandioso curso.
 
 ### 01 Hola-Mundo
 
